@@ -1,0 +1,50 @@
+.container {
+    width: 300px;
+    margin: auto;
+    margin-top: 300px;  
+}
+
+
+
+.allitems{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+.item {
+    height: 50px;
+    background-image: url(service-icon.png);
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+    border: 1px solid #ca3838;
+
+}
+
+
+
+.item1 {
+background-position: center 5px;
+}
+
+.item1:hover {
+    background-position: center -89px;
+}
+
+.item2 {
+    background-position: center -180px;
+}
+
+.item2:hover {
+    background-position: center -273px;
+}
+
+.item3 {
+    background-position: center -364px;
+}
+
+.item3:hover {
+    background-position: center -457px;
+}
+
